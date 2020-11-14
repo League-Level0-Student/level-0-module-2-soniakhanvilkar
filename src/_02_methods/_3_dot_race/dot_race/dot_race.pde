@@ -7,7 +7,7 @@
    * If you cannot play sound on this computer, set canPlaySounds to false.
    * If you are not sure, ask your teacher 
    * *****************/
-  boolean canPlaySounds = true;
+  boolean canPlaySounds = false;
 
 int x;
 
@@ -15,6 +15,7 @@ void setup() {
     size(800, 200);
     
     //1. Set the variable named x to 50.
+    x = 50;
 }
 
 void draw() {
